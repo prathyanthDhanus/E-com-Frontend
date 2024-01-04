@@ -1,0 +1,90 @@
+.header-div {
+  display: flex;
+  width: 90rem;
+  height: 6.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 19.75rem;
+  flex-shrink: 0;
+  background-color: #003f62;
+}
+
+.search-div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.3125rem;
+  width: 35%;
+  padding-left: 5rem;
+}
+
+.inputs {
+  color: #292d32;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 1.25rem;
+  padding-left: 2rem;
+  height: 3rem;
+  width: 23rem;
+  box-sizing: border-box;
+  border: none;
+}
+
+.Custom-button-class {
+  position: absolute;
+  right: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.25rem;
+  border: none;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8125rem;
+  /* background-color: aqua; */
+  width: 30%;
+  flex-shrink: 0;
+}
+
+.nav-signin {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.wishlist {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.counter {
+  display: flex;
+  width: 0.88819rem;
+  height: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.49344rem;
+  border-radius: 24.67106rem;
+  background-color: #eda415;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.69213rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}

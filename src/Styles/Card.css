@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.card {
+  display: flex;
+  width: 19.30194rem;
+  height: 19.60925rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.61469rem;
+  border-radius: 5.22944px; 
+  border: 0.984px solid #b6b6b6;
+  margin-left: 5rem;
+}
+
+.card-div2 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.12294rem;
+}
+
+.card-image {
+  position: relative;
+  width: 17.64219rem;
+  height: 10.51156rem;
+  justify-content: flex-end;
+  align-items: center;
+ 
+}
+.card-image img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 7.92975rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.card-description {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.98356rem;
+}
+
+.head {
+  color: #003f62;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.06838rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.67619rem;
+}
+.star {
+  width: 0.92181rem;
+  height: 0.9155rem;
+  display: flex;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.card-wishlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}

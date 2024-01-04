@@ -1,0 +1,15 @@
+/* .home-maindiv {
+  width: 90rem;
+  height: 74.5625rem;
+  background-color: blue;
+} */
+
+.home-buttondiv {
+  display: flex;
+  height: 3.5rem;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+    
+}
