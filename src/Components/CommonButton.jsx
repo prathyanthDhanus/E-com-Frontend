@@ -1,7 +1,7 @@
 import React from "react";
 
 const CommonButton = ({ onClick, label, className }) => {
-  
+
   const buttonStyle = {
     display: "flex",
     borderRadius: "1.25rem",
@@ -14,6 +14,11 @@ const CommonButton = ({ onClick, label, className }) => {
     color: "#FFF",
     width: "8.25rem",
     height: "3rem",
+   
+    fontSize: "0.875rem",  
+    fontStyle: "normal",   
+    fontWeight: 600,       
+    lineHeight: "normal"
   };
   return (
     <button

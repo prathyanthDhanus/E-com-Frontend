@@ -1,12 +1,12 @@
 import React from 'react';
 import "../Styles/Card.css";
-const Card = ({ title, price }) => {
+const Card = ({ title, price,className }) => {
   return (
-    <div className="card"> 
+    <div className="card" > 
     <div className="card-div2"> 
     <div className='card-wishlist'> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-    <path d="M8.09907 13.4168C7.891 13.4902 7.54829 13.4902 7.34022 13.4168C5.56548 12.8109 1.59985 10.2835 1.59985 5.99961C1.59985 4.10859 3.12368 2.57864 5.00246 2.57864C6.11626 2.57864 7.10154 3.11719 7.71964 3.94948C8.33774 3.11719 9.32915 2.57864 10.4368 2.57864C12.3156 2.57864 13.8394 4.10859 13.8394 5.99961C13.8394 10.2835 9.87381 12.8109 8.09907 13.4168Z" stroke="#292D32" stroke-width="0.917968" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg></div>
+    <path d="M8.09907 13.4168C7.891 13.4902 7.54829 13.4902 7.34022 13.4168C5.56548 12.8109 1.59985 10.2835 1.59985 5.99961C1.59985 4.10859 3.12368 2.57864 5.00246 2.57864C6.11626 2.57864 7.10154 3.11719 7.71964 3.94948C8.33774 3.11719 9.32915 2.57864 10.4368 2.57864C12.3156 2.57864 13.8394 4.10859 13.8394 5.99961C13.8394 10.2835 9.87381 12.8109 8.09907 13.4168Z" stroke="#292D32" strokeWidth="0.917968" strokeLinecap="round" strokeLinejoin="round"/>
+    </  svg></div>
     <div className="card-image" >
     <img src='src\Images\Frame 293(1).png' alt='Laptop'/>
     </div>
