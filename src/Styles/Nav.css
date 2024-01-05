@@ -1,24 +1,27 @@
+/* Styles for the header container */
 .header-div {
   display: flex;
   width: 90rem;
   height: 6.25rem;
   justify-content: center;
   align-items: center;
-  gap: 19.75rem;
+  gap: 19.75rem; 
   flex-shrink: 0;
   background-color: #003f62;
 }
 
+/* Styles for the search section */
 .search-div {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5.3125rem;
+  gap: 5.3125rem; 
   width: 35%;
   padding-left: 5rem;
 }
 
+/* Styles for the search input field */
 .inputs {
   color: #292d32;
   font-family: Poppins;
@@ -34,6 +37,7 @@
   border: none;
 }
 
+/* Styles for the custom button in the search section */
 .Custom-button-class {
   position: absolute;
   right: 0rem;
@@ -45,16 +49,17 @@
   border: none;
 }
 
+/* Styles for the icon section */
 .icon-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.8125rem;
-  /* background-color: aqua; */
+  gap: 1.8125rem; 
   width: 30%;
   flex-shrink: 0;
 }
 
+/* Styles for the navigation sign-in text */
 .nav-signin {
   color: #fff;
   font-family: Poppins;
@@ -65,11 +70,13 @@
   cursor: pointer;
 }
 
+/* Styles for the wishlist icon and counter */
 .wishlist {
   display: flex;
   gap: 0.75rem;
 }
 
+/* Styles for the counter element in the wishlist */
 .counter {
   display: flex;
   width: 0.88819rem;

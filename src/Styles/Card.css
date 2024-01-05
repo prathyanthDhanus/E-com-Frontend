@@ -1,4 +1,7 @@
+/* Importing the 'Poppins' font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Styles for the main card container */
 .card {
   display: flex;
   width: 19.30194rem;
@@ -12,6 +15,7 @@
   margin-left: 5rem;
 }
 
+/* Styles for the second-level container within the card */
 .card-div2 {
   flex-shrink: 0;
   display: flex;
@@ -21,14 +25,16 @@
   gap: 0.12294rem;
 }
 
+/* Styles for the image container within the card */
 .card-image {
   position: relative;
   width: 17.64219rem;
   height: 10.51156rem;
   justify-content: flex-end;
   align-items: center;
- 
 }
+
+/* Styles for the image inside the card */
 .card-image img {
   position: absolute;
   top: 0;
@@ -37,8 +43,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  
 }
+
+/* Styles for the description container within the card */
 .card-description {
   flex-shrink: 0;
   display: flex;
@@ -48,6 +55,7 @@
   gap: 0.98356rem;
 }
 
+/* Styles for the heading text in the card */
 .head {
   color: #003f62;
   font-family: "Poppins", sans-serif;
@@ -57,12 +65,15 @@
   line-height: normal;
 }
 
+/* Styles for the star rating container within the card */
 .card-star {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.67619rem;
 }
+
+/* Styles for an individual star icon */
 .star {
   width: 0.92181rem;
   height: 0.9155rem;
@@ -71,6 +82,7 @@
   cursor: pointer;
 }
 
+/* Styles for the wishlist icon container within the card */
 .card-wishlist {
   display: flex;
   justify-content: center;
